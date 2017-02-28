@@ -1,0 +1,88 @@
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <title id="Ripple JSON Scratchpad"></title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/react-select/dist/react-select.css">
+    <style>
+      .modal-container {
+        position: relative
+      }
+      .modal-container .modal, .modal-container .modal-backdrop {
+        position: absolute
+      }
+      .hidden {
+        display: none
+      }
+      .overviewTable {
+        font-size: 12
+      }
+      .pushRight {
+        text-align: right
+      }
+      .btnAlign {
+        padding-top: 3px;
+        padding-bottom: 4px;
+      }
+      .inputGroupButton {
+        font-size: 14px;
+      }
+
+      .popover {
+        max-width: 400px;
+      }
+
+      .popoverField {
+        width: 100px;
+      }
+
+      .reorder-list {
+        height: 800px;
+        overflow: auto;
+        padding-bottom: 0;
+      }
+
+      .reorder-item {
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 12px;
+        border: 2px solid lightblue;
+        margin-bottom: 8px;
+        transform-origin: 50% 50%;
+        cursor: pointer;
+      }
+
+      .reorder-item.dragged {
+        background-color: #EEE;
+        transform: scale(0.98, 0.98);
+        opacity: 0.7;
+      }
+ 
+      .reorder-item.selected {
+        border: 2px solid red;
+      }
+
+      .reorder-item.placeholder {
+        background-color: #CCC;
+        border: 2px solid #CCC;
+      }
+
+      .reorder-item.placeholder.inner {
+        visibility: hidden;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div id="content"></div>
+
+    <script src="bundle.js"></script>
+
+  </body>
+</html>
