@@ -1,6 +1,6 @@
 {
   "name": "qewd-content-store",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Content store using semi-structured free text",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,6 @@
   },
   "author": "Rob Tweed, M/Gateway Developments Ltd",
   "license": "Apache-2.0",
-  "dependencies": {
-    "uuid": ""
-  },
   "bugs": {
     "url": "https://github.com/robtweed/qewd-content-store/issues"
   },
