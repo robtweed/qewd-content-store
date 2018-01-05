@@ -1,6 +1,6 @@
 {
   "name": "qewd-content-store",
-  "version": "1.4.0",
+  "version": "1.6.0",
   "description": "Content store using semi-structured free text",
   "main": "index.js",
   "scripts": {
